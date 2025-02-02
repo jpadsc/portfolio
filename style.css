@@ -50,14 +50,17 @@ form {
 
 button {
   font: inherit;
+  margin-top: 2%;
 }
 
 input {
   font: inherit;
+  margin-left: 2%;
 }
 
 textarea {
   font: inherit;
+  margin-left: 2%;
 }
 label{
   display: grid;
