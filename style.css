@@ -1,3 +1,8 @@
+html {
+  --color-accent: oklch(88.82% 0.1579 101.65);
+  accent-color: var(--color-accent);
+}
+
 body {
     /* Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font
@@ -29,4 +34,11 @@ a.current {
   border-bottom-width: 0.4em;
   border-bottom-style: solid;
   border-bottom-color: lightsteelblue;
+}
+
+a:hover{
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-accent);
+  background-color: oklch(88.82% 0.0564 101.65);
 }
