@@ -44,27 +44,23 @@ a:hover{
 }
 
 form {
-  width: 100%;
-  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 button {
   font: inherit;
-  width: inherit;
-  box-sizing: inherit;
 }
 
 input {
   font: inherit;
-  width: inherit;
-  box-sizing: inherit;
 }
 
 textarea {
   font: inherit;
-  width: inherit;
-  box-sizing: inherit;
 }
 label{
-  margin-block: 10%;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
 }
