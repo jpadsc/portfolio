@@ -5,5 +5,7 @@ body {
     font: 100%/1.5 system-ui;
     max-width: 100ch;
     margin-inline: auto;
-    padding: 30%;
+    padding-left: 76px;
+    padding-right: 50px;
   }
+
