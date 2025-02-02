@@ -42,3 +42,29 @@ a:hover{
   border-bottom-color: var(--color-accent);
   background-color: oklch(88.82% 0.0387 101.65);
 }
+
+form {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+  width: inherit;
+  box-sizing: inherit;
+}
+
+input {
+  font: inherit;
+  width: inherit;
+  box-sizing: inherit;
+}
+
+textarea {
+  font: inherit;
+  width: inherit;
+  box-sizing: inherit;
+}
+label{
+  margin-block: 10%;
+}
