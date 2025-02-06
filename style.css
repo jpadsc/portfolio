@@ -80,7 +80,9 @@ label{
 }
 
 article{
+  display: grid;
   grid-template-rows: subgrid;
   grid-row: span 3;
   gap: 1em;
+  padding: 2.7%;
 }
