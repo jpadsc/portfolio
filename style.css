@@ -86,3 +86,9 @@ article{
   gap: 1em;
   padding: 2.7%;
 }
+
+h1 {
+  line-height: 1.1;
+  text-wrap: balance;
+  font-size: 277%;
+}
