@@ -7,7 +7,7 @@ function $$(selector, context = document) {
 const ARE_WE_HOME = document.documentElement.classList.contains('home');
 
 let pages = [
-  { url: './', title: 'Home' },
+  { url: '../index.html', title: 'Home' },
   { url: './projects/', title: 'Projects' },
   { url: './contact/', title: 'Contact'},
   { url: 'https://github.com/jpadsc', title:'GitHub'}
