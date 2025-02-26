@@ -5,9 +5,10 @@ function $$(selector, context = document) {
 }
 
 const ARE_WE_HOME = document.documentElement.classList.contains('home');
+console.log( ARE_WE_HOME);
 
 let pages = [
-  { url: '../index.html', title: 'Home' },
+  { url: '', title: 'Home' },
   { url: './projects/', title: 'Projects' },
   { url: './contact/', title: 'Contact'},
   { url: 'https://github.com/jpadsc', title:'GitHub'}
