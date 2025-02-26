@@ -64,8 +64,21 @@ if ("colorScheme" in localStorage) {
   select.value = localStorage.colorScheme;
 }
 
+export async function fetchJSON(url) {
+  try {
+      // Fetch the JSON file from the given URL
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch projects: ${response.statusText}`);
+      }
+      console.log(response);
 
+      const data = await response.json();
+      return data; 
 
-// let navLinks = $$("nav a");
-// let currentLink = (navLinks).find((a) => a.host === location.host && a.pathname === location.pathname);
-// currentLink?.classList.add('current');
+  } catch (error) {
+      console.error('Error fetching or parsing JSON data:', error);
+  }
+
+  
+}
